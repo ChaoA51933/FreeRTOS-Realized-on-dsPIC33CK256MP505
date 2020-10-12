@@ -28,7 +28,11 @@ Just realized one tusk Task_100us, and one 500ms Timer interrupt, and task do si
 configMAX_SYSCALL_INTERRUPT_PRIORITY is 4, so if 500ms timer interrupt priority is <=4, then 500ms timer interrupt will be masked by FreeRTOS when call something like portDISABLE_INTERRUPTS(). You should know that __delay_ms(5000) in 500ms Timer interrupt should not be replaced by blocked delay ( vTaskDelay(50000) ).
 
 Note:
-FreeRTOSConfig.h should be modified in your real application code if you referred to this project, for example, configMINIMAL_STACK_SIZE, configTOTAL_HEAP_SIZE.
+1) FreeRTOSConfig.h should be modified in your real application code if you referred to this project, for example, configMINIMAL_STACK_SIZE, configTOTAL_HEAP_SIZE.
+2) FreeRTOS for dsPIC33CK should define following Macro in project properties.
+   #define __dsPIC33F__
+   #define MPLAB_DSPIC_PORT
+
 
 Operation:
 ==========
