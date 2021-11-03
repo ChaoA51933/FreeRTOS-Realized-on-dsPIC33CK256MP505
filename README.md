@@ -6,7 +6,7 @@ This repository contains a simple FreeRTOS project on MCU dsPIC33CK256MP505.
 Related Documentation:
 =====================
 1) [dsPIC33CK256MP508-Family-Data-Sheet-DS70005349H](http://ww1.microchip.com/downloads/en/DeviceDoc/dsPIC33CK256MP508-Family-Data-Sheet-DS70005349H.pdf)
-2) [公众号文章-CAN控制器MCP2518FD](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzAxODgwMjkyOA==&scene=1&album_id=1597946681940115464&count=3&uin=MjU5ODU0MjYyMQ%3D%3D&key=8670448a25b6794c0531f61565bab6a78567068eba368f08bcb90a6609f7a0d198e6c81046e386a9aeeadb3defe18cf76196fe517ac61482de473fd34375998bbd4bd15a423152f3a5a8fe33a0f5450ddcd39af1ab657d06c73f4a4a22cdd1c773ec9cdd31e2548ed4d9712117633c887cb8b217fff99537a750f5f5e400f3c2&devicetype=Windows+10&version=62060833&lang=en&ascene=1&pass_ticket=TeVtLWj0cGGiXuN%2BEjKpj4GlBmA98XPreYEvslulQEXsVx49Rbsq9Zjxfs%2BrCfBy)
+2) [公众号文章-FreeRTOS移植详解](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzAxODgwMjkyOA==&scene=1&album_id=1597946681940115464&count=3&uin=MjU5ODU0MjYyMQ%3D%3D&key=8670448a25b6794c0531f61565bab6a78567068eba368f08bcb90a6609f7a0d198e6c81046e386a9aeeadb3defe18cf76196fe517ac61482de473fd34375998bbd4bd15a423152f3a5a8fe33a0f5450ddcd39af1ab657d06c73f4a4a22cdd1c773ec9cdd31e2548ed4d9712117633c887cb8b217fff99537a750f5f5e400f3c2&devicetype=Windows+10&version=62060833&lang=en&ascene=1&pass_ticket=TeVtLWj0cGGiXuN%2BEjKpj4GlBmA98XPreYEvslulQEXsVx49Rbsq9Zjxfs%2BrCfBy)
 
 Software Used:
 ==============
